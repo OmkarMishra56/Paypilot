@@ -1,0 +1,79 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Cart {
+  id        String   @id @default(cuid())
+  sessionId String   @unique
+  itemsJson String   @default("[]")
+  updatedAt DateTime @updatedAt
+}
+
+model Order {
+  id             String   @id @default(cuid())
+  sessionId      String
+  paypalOrderId  String?  @unique
+  status         String   @default("CREATED") // CREATED | APPROVED | CAPTURED | PARTIALLY_REFUNDED | REFUNDED | FAILED
+  currency       String   @default("USD")
+  totalCents     Int
+  itemsJson      String
+  captureId      String?
+  capturedCents  Int      @default(0)
+  refundedCents  Int      @default(0)
+  invoiceId      String?
+  invoiceStatus  String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  events         Event[]
+}
+
+model Event {
+  id          String   @id @default(cuid())
+  orderId     String?
+  order       Order?   @relation(fields: [orderId], references: [id])
+  type        String
+  source      String   // tool | webhook | system | user
+  payloadJson String
+  createdAt   DateTime @default(now())
+}
+
+model WebhookLog {
+  id          String   @id @default(cuid())
+  eventId     String   @unique
+  eventType   String
+  verified    Boolean
+  payloadJson String
+  createdAt   DateTime @default(now())
+}
+
+model ToolLog {
+  id         String   @id @default(cuid())
+  sessionId  String?
+  kind       String   // tool | paypal
+  name       String
+  method     String?
+  path       String?
+  httpStatus Int?
+  ok         Boolean
+  requestId  String?
+  debugId    String?
+  paypalId   String?
+  summary    String   @default("")
+  inputJson  String   @default("{}")
+  createdAt  DateTime @default(now())
+}
+
+model Confirmation {
+  id          String   @id @default(cuid()) // the one-time token the UI must echo back
+  sessionId   String
+  action      String   // capture | invoice | refund
+  payloadJson String
+  status      String   @default("pending") // pending | used | cancelled | expired
+  expiresAt   DateTime
+  createdAt   DateTime @default(now())
+}
