@@ -1,0 +1,254 @@
+[
+ {
+  "id": "p01",
+  "name": "Insulated Steel Bottle 24oz",
+  "description": "Keeps drinks cold 24h or hot 12h.",
+  "priceCents": 2400,
+  "category": "drinkware",
+  "tags": [
+   "gift",
+   "office",
+   "bottle",
+   "travel"
+  ]
+ },
+ {
+  "id": "p02",
+  "name": "Ceramic Coffee Mug",
+  "description": "12oz stoneware mug, dishwasher safe.",
+  "priceCents": 1800,
+  "category": "drinkware",
+  "tags": [
+   "gift",
+   "coffee",
+   "mug",
+   "kitchen"
+  ]
+ },
+ {
+  "id": "p03",
+  "name": "Wireless Charging Pad",
+  "description": "15W Qi pad with braided cable.",
+  "priceCents": 1999,
+  "category": "tech",
+  "tags": [
+   "gift",
+   "phone",
+   "desk",
+   "charger"
+  ]
+ },
+ {
+  "id": "p04",
+  "name": "Mechanical Pencil Set (6)",
+  "description": "0.5mm pencils with refill leads.",
+  "priceCents": 1250,
+  "category": "stationery",
+  "tags": [
+   "office",
+   "desk",
+   "school"
+  ]
+ },
+ {
+  "id": "p05",
+  "name": "Hardcover Dot-Grid Notebook",
+  "description": "A5, 160 pages, lay-flat binding.",
+  "priceCents": 1400,
+  "category": "stationery",
+  "tags": [
+   "gift",
+   "notebook",
+   "office"
+  ]
+ },
+ {
+  "id": "p06",
+  "name": "Desk Succulent Trio",
+  "description": "Three live succulents in concrete pots.",
+  "priceCents": 2200,
+  "category": "home",
+  "tags": [
+   "gift",
+   "plant",
+   "desk",
+   "team"
+  ]
+ },
+ {
+  "id": "p07",
+  "name": "Bluetooth Mini Speaker",
+  "description": "Pocket speaker, 10h battery, waterproof.",
+  "priceCents": 3499,
+  "category": "tech",
+  "tags": [
+   "gift",
+   "music",
+   "speaker",
+   "travel"
+  ]
+ },
+ {
+  "id": "p08",
+  "name": "Leather Card Holder",
+  "description": "Slim full-grain leather, holds 6 cards.",
+  "priceCents": 2700,
+  "category": "accessories",
+  "tags": [
+   "gift",
+   "wallet",
+   "leather"
+  ]
+ },
+ {
+  "id": "p09",
+  "name": "Noise-Dampening Earbuds",
+  "description": "Wireless earbuds with active noise reduction.",
+  "priceCents": 4500,
+  "category": "tech",
+  "tags": [
+   "gift",
+   "audio",
+   "earbuds",
+   "music"
+  ]
+ },
+ {
+  "id": "p10",
+  "name": "Merino Wool Socks (2-pack)",
+  "description": "Temperature-regulating everyday socks.",
+  "priceCents": 1800,
+  "category": "apparel",
+  "tags": [
+   "gift",
+   "socks",
+   "winter"
+  ]
+ },
+ {
+  "id": "p11",
+  "name": "Team Snack Box (12 ct)",
+  "description": "Assorted snacks sized for a team of 12.",
+  "priceCents": 3900,
+  "category": "food",
+  "tags": [
+   "team",
+   "snacks",
+   "office",
+   "gift",
+   "bulk"
+  ]
+ },
+ {
+  "id": "p12",
+  "name": "Cable Organizer Kit",
+  "description": "Clips, sleeves and ties for a tidy desk.",
+  "priceCents": 999,
+  "category": "tech",
+  "tags": [
+   "desk",
+   "office",
+   "cable"
+  ]
+ },
+ {
+  "id": "p13",
+  "name": "Aluminium Laptop Stand",
+  "description": "Foldable stand, 6 height settings.",
+  "priceCents": 4200,
+  "category": "tech",
+  "tags": [
+   "desk",
+   "office",
+   "laptop",
+   "ergonomic"
+  ]
+ },
+ {
+  "id": "p14",
+  "name": "Scented Soy Candle",
+  "description": "Cedar and amber, 45h burn time.",
+  "priceCents": 1650,
+  "category": "home",
+  "tags": [
+   "gift",
+   "candle",
+   "home"
+  ]
+ },
+ {
+  "id": "p15",
+  "name": "Travel Backpack 28L",
+  "description": "Water-resistant with laptop sleeve.",
+  "priceCents": 5400,
+  "category": "bags",
+  "tags": [
+   "gift",
+   "travel",
+   "backpack",
+   "laptop"
+  ]
+ },
+ {
+  "id": "p16",
+  "name": "Ergonomic Wrist Rest",
+  "description": "Memory-foam keyboard wrist support.",
+  "priceCents": 1500,
+  "category": "tech",
+  "tags": [
+   "desk",
+   "office",
+   "ergonomic"
+  ]
+ },
+ {
+  "id": "p17",
+  "name": "Gourmet Tea Sampler",
+  "description": "12 loose-leaf teas in a gift tin.",
+  "priceCents": 2100,
+  "category": "food",
+  "tags": [
+   "gift",
+   "tea",
+   "team"
+  ]
+ },
+ {
+  "id": "p18",
+  "name": "Mini Desk Whiteboard",
+  "description": "Magnetic whiteboard with 3 markers.",
+  "priceCents": 1300,
+  "category": "stationery",
+  "tags": [
+   "office",
+   "desk",
+   "team"
+  ]
+ },
+ {
+  "id": "p19",
+  "name": "Portable Power Bank 10,000mAh",
+  "description": "USB-C fast charge, pocket sized.",
+  "priceCents": 2999,
+  "category": "tech",
+  "tags": [
+   "gift",
+   "travel",
+   "phone",
+   "charger"
+  ]
+ },
+ {
+  "id": "p20",
+  "name": "Over-Ear Noise-Cancelling Headphones",
+  "description": "40h battery, active noise cancelling.",
+  "priceCents": 8900,
+  "category": "tech",
+  "tags": [
+   "gift",
+   "audio",
+   "music",
+   "headphones"
+  ]
+ }
+]
