@@ -68,7 +68,7 @@ Invoice and refund operations follow the same prepare → review → confirm pat
 ### 1. Install
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/OmkarMishra56/Paypilot
 cd paypilot
 npm ci
 ```
